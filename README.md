@@ -20,6 +20,7 @@ npm install
 
 2. Executar testes em Headless
 ```
+npm run dev
 npx playwright test 
 ```
 

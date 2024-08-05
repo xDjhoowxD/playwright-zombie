@@ -19,7 +19,7 @@ export class LandingPage {
     //methods
 
     async visit(){
-        await this.page.goto('http://localhost:3000');
+        await this.page.goto('/');
     }
 
     async openLeadModal(){

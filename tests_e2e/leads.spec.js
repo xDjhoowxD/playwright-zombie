@@ -13,7 +13,7 @@ test('deve cadastrar um lead na fila de espera', async ({ page }) => {
 });
 
 test('não deve cadastrar um lead quando o email ja for cadastrado', async ({ page }) => {
-    // const response = await axios.post('http://localhost:3333/leads', {
+    // const response = await request.post('http://localhost:3333/leads', {
     //   data: {
     //     name: 'aaa',
     //     email: 'email@provider.com'
